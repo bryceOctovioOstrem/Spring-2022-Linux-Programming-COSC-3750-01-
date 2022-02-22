@@ -1,0 +1,36 @@
+program: MakeFile
+mandatory introduction
+create varifables
+${CC}$
+${CFLAGS} = -ggdb -Wall
+target wycat.c
+	generates the executable
+target .PHONY
+	REMOVES THE CORE DUMPS
+
+end of makefile
+
+program: wycat.c
+using name space std
+main(int argc, char** argv){
+declare variables:
+string input 
+set up buffer
+set up stdin(arguments) and stdout and stderr
+fread(arguments)  = argv
+if files errors{
+ cout<<(stdrr);
+}else {
+if file in == "-" {
+
+}
+if(argv[0] == "Void"){
+	
+	if ( argv[argc] = return values){
+	fwrite(stdrr);
+}
+fwrite(stdout) 
+}
+close sydin , stdout and stderr
+return 0;
+}
